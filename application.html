@@ -5,39 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Application</title>
     <link rel="stylesheet" href="css/application.css">
-  <font-face {
-    font-family: Arvo;
-    }
-
-@font-face {
-    font-family:OpenSans;
+    @font-face {
+    font-family:Arvo;
+    src: url('fonts/Arvo-Regular.ttf') format('truetype');
 }
-
+@font-face {
+    font-family: 'OpenSans';
+    src: url('fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+}
 body {
-    font-family: OpenSans
+    font-family: 'OpenSans', sans-serif;
     background-color: #f5f5f5;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
-
 h1, h2 {
-    font-family: Arvo, serif;
+    font-family: 'Arvo', serif;
     color: #ff4500;
 }
-
 iframe {
     border: 3px solid #ff4500;
     border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
-
 ul, ol {
     text-align: left;
     display: inline-block;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
-
 img {
     border-radius: 10px;
     margin: 10px;
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
+
      </head> 
 <body>
     <header>
